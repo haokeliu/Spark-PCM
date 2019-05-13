@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="final:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/final_jar</output-path>
+    <root id="root">
+      <element id="archive" name="final.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="final" />
+      </element>
+      <element id="library" level="project" name="jars" />
+      <element id="library" level="application" name="scala-sdk-2.11.12" />
+    </root>
+  </artifact>
+</component>
